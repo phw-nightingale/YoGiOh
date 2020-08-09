@@ -1,0 +1,5 @@
+﻿Style,Name,Property,Description,Foreground,Background,Type,ShowType,Skills
+MS_D_L4_OW_1,野蛮人1号,Dark,,Fg#Common,Bg#1,Monster,,
+MS_L_L3_MG_2,戏法师,Light,使用像戏法般的魔法打倒对方。也会放出鸽子攻击。,Fg#Common,Bg#1,Monster,,
+MS_W_L3_DG_3,宝贝龙,Wind,不可轻视的幼龙，说不定隐藏着什么力量。,Fg#Common,Bg#1,Monster,,
+MS_W_L3_BO_4,暗黑蝙蝠,Wind,住在暗世界用精神波动找寻敌人的蝙蝠。,Fg#Common,Bg#1,Monster,,

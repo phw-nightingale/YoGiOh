@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Icons
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: edd659e7fbf738e4a9f30a84a6a9c9e0, type: 3}
+    - {fileID: 2800000, guid: 58b0b7b8be6bd6c4088b71f3547da745, type: 3}
+    - {fileID: 2800000, guid: 4a6721e6fd2d7374eaebe3fd30b27800, type: 3}
+    - {fileID: 2800000, guid: f47ae1bf9f0028341938a6a9d16c0857, type: 3}
+    - {fileID: 2800000, guid: bd58c456faeb0b54d90d3f65bb70fe70, type: 3}
+    - {fileID: 2800000, guid: 709e410471c4e0a478873e4de3f3e9f6, type: 3}
+    - {fileID: 2800000, guid: f34173cb9feae7e4886717a90ded769c, type: 3}
+    - {fileID: 2800000, guid: a51fe347a32399149bcb371f2ff618bc, type: 3}
+    - {fileID: 2800000, guid: 21427828b7812d148a0e5aaab9f119af, type: 3}
+    - {fileID: 2800000, guid: 80fb420f41e1ef54e8bd5ebc231fc84c, type: 3}
+    - {fileID: 2800000, guid: 082ff4f2b8bdccd4598cedeb27440059, type: 3}
+    - {fileID: 2800000, guid: 4410a7d801ba598439dc50909c753714, type: 3}
+    - {fileID: 2800000, guid: 73ef7b8d926646941abfbe3b2a59fc2b, type: 3}
+    - {fileID: 2800000, guid: e3f5cd63d39e67c499a6f0e57746bda7, type: 3}
+    - {fileID: 2800000, guid: 17ee79d2dd5144a4f84f598b1c2e7556, type: 3}
+    - {fileID: 2800000, guid: 642df8b24a898ec4bb63cfeaab7070c8, type: 3}
+    totalSpriteSurfaceArea: 46510
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 642df8b24a898ec4bb63cfeaab7070c8, type: 3}
+  - {fileID: 21300000, guid: 17ee79d2dd5144a4f84f598b1c2e7556, type: 3}
+  - {fileID: 21300000, guid: 082ff4f2b8bdccd4598cedeb27440059, type: 3}
+  - {fileID: 21300000, guid: e3f5cd63d39e67c499a6f0e57746bda7, type: 3}
+  - {fileID: 21300000, guid: 709e410471c4e0a478873e4de3f3e9f6, type: 3}
+  - {fileID: 21300000, guid: bd58c456faeb0b54d90d3f65bb70fe70, type: 3}
+  - {fileID: 21300000, guid: 4a6721e6fd2d7374eaebe3fd30b27800, type: 3}
+  - {fileID: 21300000, guid: a51fe347a32399149bcb371f2ff618bc, type: 3}
+  - {fileID: 21300000, guid: edd659e7fbf738e4a9f30a84a6a9c9e0, type: 3}
+  - {fileID: 21300000, guid: 21427828b7812d148a0e5aaab9f119af, type: 3}
+  - {fileID: 21300000, guid: 58b0b7b8be6bd6c4088b71f3547da745, type: 3}
+  - {fileID: 21300000, guid: 4410a7d801ba598439dc50909c753714, type: 3}
+  - {fileID: 21300000, guid: f34173cb9feae7e4886717a90ded769c, type: 3}
+  - {fileID: 21300000, guid: 73ef7b8d926646941abfbe3b2a59fc2b, type: 3}
+  - {fileID: 21300000, guid: 80fb420f41e1ef54e8bd5ebc231fc84c, type: 3}
+  - {fileID: 21300000, guid: f47ae1bf9f0028341938a6a9d16c0857, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - DarkStar
+  - PropGod
+  - PropEarth
+  - PropFire
+  - M4
+  - M3
+  - M1
+  - M6
+  - Lm
+  - PropDark
+  - LightStar
+  - PropWind
+  - M5
+  - PropWator
+  - PropLight
+  - M2
+  m_Tag: Icons
+  m_IsVariant: 0

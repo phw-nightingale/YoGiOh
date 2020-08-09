@@ -1,0 +1,6 @@
+﻿[
+  {"Style":"MS_D_L4_OW_1","Name":"野蛮人1号","Property":"Dark","Description":"","Foreground":"Fg#Common","Background":"Bg#1","Type":"Monster","ShowType":"InAtk","Skills":""},
+  {"Style":"MS_L_L3_MG_2","Name":"戏法师","Property":"Light","Description":"使用像戏法般的魔法打倒对方。也会放出鸽子攻击。","Foreground":"Fg#Common","Background":"Bg#1","Type":"Monster","ShowType":"InAtk","Skills":""},
+  {"Style":"MS_W_L3_DG_3","Name":"宝贝龙","Property":"Wind","Description":"不可轻视的幼龙，说不定隐藏着什么力量。","Foreground":"Fg#Common","Background":"Bg#1","Type":"Monster","ShowType":"InAtk","Skills":""},
+  {"Style":"MS_W_L3_BO_4","Name":"暗黑蝙蝠","Property":"Wind","Description":"住在暗世界用精神波动找寻敌人的蝙蝠。","Foreground":"Fg#Common","Background":"Bg#1","Type":"Monster","ShowType":"InAtk","Skills":""}
+]
