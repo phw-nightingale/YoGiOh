@@ -1,4 +1,6 @@
-﻿namespace Models
+﻿using UnityEngine.Events;
+
+namespace Models
 {
     public class Card
     {
@@ -14,6 +16,13 @@
         {
             Id = id;
             Style = style;
+        }
+
+        public UnityAction<Card> OnValueChanged;
+
+        public override string ToString()
+        {
+            return $"Card[Id: {Id}, Style: {Style}]";
         }
     }
 }

@@ -8,9 +8,9 @@ namespace Repository
 {
     public class CardRepository : SingletonAuto<CardRepository>
     {
-        public List<BaseCardInfo> CardInfos { get; set; } = new List<BaseCardInfo>();
+        public Dictionary<string, BaseCardInfo> CardInfoDict { get; set; } = new Dictionary<string, BaseCardInfo>();
 
-        public List<Card> HandleCards { get; set; } = new List<Card>();
+        public Dictionary<long, Card> HandleCardDict { get; set; } = new Dictionary<long, Card>();
 
         public CardRepository()
         {
@@ -23,13 +23,24 @@ namespace Repository
             var json = Resources.Load<TextAsset>("Data/MonsterCard").text;
             var cards = JsonConvert.DeserializeObject<List<MonsterCardInfo>>(json);
             foreach (var card in cards)
-                CardInfos.Add(card);
+                CardInfoDict.Add(card.Style, card);
 
             json = Resources.Load<TextAsset>("Data/HandleCards").text;
             var handle = JsonConvert.DeserializeObject<List<Card>>(json);
             foreach (var card in handle)
-                HandleCards.Add(card);
+                HandleCardDict.Add(card.Id, card);
         }
+
+        public Card GetCardById(long id)
+        {
+            return HandleCardDict[id];
+        }
+
+        public BaseCardInfo GetCardInfoByStyle(string style)
+        {
+            return CardInfoDict[style];
+        }
+        
     }
 
 }
